@@ -1,208 +1,77 @@
 <!doctype html>
 <html>
-<head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta charset="utf-8">
-<title>Byte Lounge</title>
-<style>
-body
-{
-   background-color: #000000;
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   line-height: 1.1875;
-   margin: 0;
-   padding: 0;
-   overflow-x: hidden;
-   overflow-y: scroll;
-}
-a
-{
-   color: #00D900;
-   text-decoration: none;
-}
-a:visited
-{
-   color: #00ED30;
-}
-a:active
-{
-   color: #191970;
-}
-a:hover
-{
-   color: #FF0000;
-   text-decoration: underline;
-}
-input:focus, textarea:focus, select:focus
-{
-   outline: none;
-}
-</style>
-<link href="black-tie/jquery-ui.min.css" rel="stylesheet">
-<style>
-h1, .h1
-{
-   font-family: Arial;
-   font-weight: bold;
-   font-size: 32px;
-   text-decoration: none;
-   color: #000000;
-   background-color: transparent;
-   margin: 0px 0px 0px 0px;
-   padding: 0px 0px 0px 0px;
-   display: inline;
-}
-#wb_Image1
-{
-   vertical-align: top;
-}
-#Image1
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#ThemeableButton1
-{
-   cursor: default;
-   font-family: HACKED;
-   font-weight: normal;
-   font-size: 48px;
-   font-style: normal;
-}
-#wb_ThemeableButton1
-{
-   border-radius: 5px;
-   margin: 0;
-}
-#ThemeableButton1
-{
-   box-sizing: border-box;
-   padding: 0;
-   text-align: center;
-}
-#wb_ThemeableButton1 .ui-button
-{
-   margin: 0;
-   line-height: 137px;
-}
-#ThemeableButton1
-{
-   color: #E3E3E3;
-   text-decoration: none;
-}
-#ThemeableButton1 :hover
-{
-   color: #FFFFFF;
-}
-#ThemeableButton1 :active
-{
-   color: #222222;
-}
-#wb_ThemeableButton1 .ui-corner-all, #wb_ThemeableButton1 .ui-corner-left
-{
-   border-bottom-left-radius: 5px;
-   border-top-left-radius: 5px;
-}
-#wb_ThemeableButton1 .ui-corner-all, #wb_ThemeableButton1 .ui-corner-right
-{
-   border-bottom-right-radius: 5px;
-   border-top-right-radius: 5px;
-}
-#ThemeableButton1:hover
-{
-   background-color: #00ED30;
-   -webkit-transition: background-color 500ms linear 0ms;
-   transition: background-color 500ms linear 0ms;
-}
-#wb_ThemeableButton1 .ui-button
-{
-   background-color: #111111;
-   background-image: none;
-   border: 1px solid #777777;
-   color: #E3E3E3;
-}
-#wb_ThemeableButton1 .ui-state-hover, #wb_ThemeableButton1 .ui-button:hover
-{
-   border-color: #000000;
-   background-color: #1C1C1C;
-   background-image: none;
-   color: #00ED30;
-}
-#wb_ThemeableButton1 .ui-state-active, #wb_ThemeableButton1 .ui-button:active
-{
-   border-color: #000000;
-   background-color: #000000;
-   background-image: none;
-   color: #222222;
-}
-#wb_ThemeableButton1 .ui-button .ui-icon
-{
-   background-image: url('images/index-ThemeableButton1-default.png');
-   background-position: 0 0;
-}
-#wb_ThemeableButton1 .ui-button:hover .ui-icon
-{
-   background-image: url('images/index-ThemeableButton1-hover.png');
-   background-position: 0 0;
-}
-#wb_ThemeableButton1 .ui-button:active .ui-icon
-{
-   background-image: url('images/index-ThemeableButton1-active.png');
-   background-position: 0 0;
-}
-#wb_ThemeableButton1 .ui-visual-focus
-{
-   box-shadow: none;
-}
-#wb_Text1
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text1 div
-{
-   text-align: left;
-}
-#MediaPlayer1
-{
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-</style>
-<script src="jquery-1.12.4.min.js"></script>
-<script src="jquery-ui.min.js"></script>
-<script src="wwb16.min.js"></script>
-<script>
-$(document).ready(function()
-{
-   $("#ThemeableButton1").button();
-});
-</script>
-<!-- Insert Google Analytics code here -->
-</head>
+  <title>Byte Lounge</title>
+  <head>
+    <link rel="stylesheet" href="mystyle.css">
+    <style type="text/css">
+  @font-face {
+  font-family: Hacked;
+  src: url(https://hackedfont.com/HACKED.ttf);
+  }
+  body {
+    font-family: HACKED;
+    color: #00EE26;
+    background-color: #000000;
+  }
+  a {
+    color: #00EE26;
+    background-color: #000000;
+    font-size: 25px ;
+  }
+  #nav {
+    font-size: 30px ;
+    text-align: center;
+  }
+  #content {
+    font-family: HACKED;
+    color: #00EE26;
+    background-color: #000000;
+    font-size: 25px ;
+    text-align: center;
+  }
+  #join {
+    text-align: center;
+    font-size: 35px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    align-items: center;
+  }
+    </style>
+  </head>
 <body>
-<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:1435px;height:244px;z-index:0;">
-<img src="images/BYTE_LOUNGE_BANNER.png" id="Image1" alt=""></div>
-<div id="wb_ThemeableButton1" style="position:absolute;left:615px;top:529px;width:204px;height:139px;z-index:1;">
-<a class="ui-button ui-widget ui-corner-all" id="ThemeableButton1" href="" id="ThemeableButton1" onclick="window.location.href='https://discord.gg/xhcCQ8g';return false;" class="h1" style="width:100%;height:100%;">JOIN_US</a></div>
-<div id="wb_Text1" style="position:absolute;left:133px;top:244px;width:1118px;height:200px;z-index:2;">
-<span style="background-color:#000000;color:#00ED30;font-family:HACKED;font-size:24px;">Hello World!<br>We're </span><span style="background-color:#000000;color:#00ED30;font-family:HACKED;font-size:48px;">byte_lounge</span><span style="background-color:#000000;color:#00ED30;font-family:HACKED;font-size:24px;"><br>we're ctf-team with an active server on discord and we love to learn all sorts of new things that are hacking or cybersecurity related and we don't discriminate people based on their experience levels. anyone may join us and start learning with us or share their own knowledge with us.<br>if this sounds like something you wanna be a part of, then just know that we'll be delighted to see you in our discord server!</span></div>
-<div id="wb_MediaPlayer1" style="position:absolute;left:0px;top:0px;width:1516px;height:746px;visibility:hidden;z-index:3;">
-<embed src="images/supersecretfiledontlook.gif" id="MediaPlayer1" autostart="true" loop="true" onerror="ShowObject('wb_MediaPlayer1', 1);return false;">
+  <div id="title">
+  <img src="Images\Logo.png" alt="Logo">
+  </div>
+  <hr style="height:5px;border-width:0;color:gray;background-color:#00EE26">
+    <div id="nav">
+    <nav>
+      <a href="https://ctftime.org/team/126632">CTF team</a> |
+      <a href="/css/">Write Up's</a> |
+      <a href="https://www.youtube.com/channel/UCipF4_3RwcWeWVbWF1O9f6A">Youtube</a> |
+      <a href="https://github.com/Byte-Lounge">GitHub</a> |
+    </nav>
 </div>
+<div id="content">
+  <br>This Discord Server is a great place to find out how to ethically hack!
+  <br>This server was made so that other people could learn how to ethically hack,<br> how to further develop knowledge or fancy a challenge and join our capture the flag(CTF) team and win prizes.
+  <br>We enjoy challenges and happy to give tips to people that are stuck on problems.
+  <br>We find great satisfaction in achieving challenges as a team.
+  <br>If this sounds like something you'd like to be a part of, please use the link at the top of the description.
+  <br>
+  <br>
+  <br>
+</div>
+<div id="join">
+  <a href="https://discord.gg/xhcCQ8g">Click here to join us.</a>
+</div>
+<br>
+<br>
+<br>
+<br>
+<footer>
+  <a href="mailto:byteloungeteam@gmail.com">byteloungeteam@gmail.com</a></p>
+</footer>
 </body>
 </html>
